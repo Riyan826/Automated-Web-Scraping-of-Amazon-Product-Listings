@@ -39,9 +39,6 @@ Ensure you have Python installed, then run:
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Download and Set Up WebDriver
-Make sure you have **Google Chrome** installed and download the matching **ChromeDriver** from [here](https://chromedriver.chromium.org/downloads). Place it in your project directory.
-
 ## 🚀 Usage
 ### **Run the Web Scraper**
 Execute the following command to scrape Amazon product data:
@@ -56,11 +53,6 @@ Once HTML files are saved, extract relevant details using:
 python collect.py
 ```
 This will generate a **CSV file** (`data_csv.csv`) containing the product details.
-
-## ⚠️ Disclaimer
-- This project is **for educational purposes only**.
-- Scraping Amazon may violate its **terms of service**. Use responsibly.
-- To avoid getting blocked, **limit the request frequency** (e.g., add `time.sleep(5)`).
 
 ## 📌 Future Improvements
 - Implement **headless browsing** for better efficiency
