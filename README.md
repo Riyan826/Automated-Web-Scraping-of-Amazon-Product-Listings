@@ -29,7 +29,7 @@ This project is an **automated web scraper** that extracts product details (titl
 ## 🔧 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/amazon-product-scraper.git
+git clone https://github.com/riyan826/amazon-product-scraper.git
 cd amazon-product-scraper
 ```
 
